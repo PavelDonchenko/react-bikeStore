@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-bikeStore/static/css/main.e6c13ad2.css",
+    "main.js": "/react-bikeStore/static/js/main.3e505048.js",
+    "static/media/header-bg.jpg": "/react-bikeStore/static/media/header-bg.de4fe73b540cfb29c1fa.jpg",
+    "static/media/bike3.jpg": "/react-bikeStore/static/media/bike3.8f2670d8946b7fa3bf2e.jpg",
+    "static/media/bike8.jpg": "/react-bikeStore/static/media/bike8.bcabf944d51551d287dc.jpg",
+    "static/media/bike7.jpg": "/react-bikeStore/static/media/bike7.b12c82acf8e8187fc8c5.jpg",
+    "static/media/bike6.jpg": "/react-bikeStore/static/media/bike6.db6e8b6d709a859179f2.jpg",
+    "static/media/bike5.jpg": "/react-bikeStore/static/media/bike5.149483a5f940e9fc905f.jpg",
+    "static/media/bike4.jpg": "/react-bikeStore/static/media/bike4.ae3c0318fc502bfbba70.jpg",
+    "static/media/bike2.jpg": "/react-bikeStore/static/media/bike2.919a65e6a2a2a43f20df.jpg",
+    "static/media/bike1.jpg": "/react-bikeStore/static/media/bike1.c72c99e8bffba093ca0b.jpg",
+    "static/media/f2.jpg": "/react-bikeStore/static/media/f2.53deb8d98911471b6731.jpg",
+    "static/media/order.png": "/react-bikeStore/static/media/order.de084d5f4df3a86b485f.png",
+    "static/media/f3.jpg": "/react-bikeStore/static/media/f3.bfd6a87cc33c7b50eb57.jpg",
+    "static/media/f4.jpg": "/react-bikeStore/static/media/f4.47eff17d9a3ab038d6b6.jpg",
+    "static/media/f1.jpg": "/react-bikeStore/static/media/f1.4481ccc4a7a541d2c19c.jpg",
+    "static/media/Logo.svg": "/react-bikeStore/static/media/Logo.2fc2eaae52501690ef3201d589df5f97.svg",
+    "static/media/twitter.svg": "/react-bikeStore/static/media/twitter.30e339c6f031a927ccb7693563a17799.svg",
+    "index.html": "/react-bikeStore/index.html",
+    "static/media/facebook.svg": "/react-bikeStore/static/media/facebook.48aa64b1879fcbd93ec048ee2efc8c18.svg",
+    "static/media/telegram.svg": "/react-bikeStore/static/media/telegram.3a73f548fa03e353d679f5eb546291f1.svg",
+    "main.e6c13ad2.css.map": "/react-bikeStore/static/css/main.e6c13ad2.css.map",
+    "main.3e505048.js.map": "/react-bikeStore/static/js/main.3e505048.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3e505048.js"
+  ]
+}
