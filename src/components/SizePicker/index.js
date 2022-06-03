@@ -11,8 +11,8 @@ function SizePicked({ items }) {
             <Text weight="500">Размер</Text>
 
             {items.map((item, index) => (
-                <Label first={index === 0} key={index.id}>
-                    <Checked checked={size === item.id} />
+                <Label first={index === 0} key={index}>
+                    <Checked checked={size === item.id}  />
                     <Input
                         name='size'
                         type='radio'

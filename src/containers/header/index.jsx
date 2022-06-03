@@ -4,7 +4,7 @@ import { HeaderSC, Absolute, HeaderText } from './styled';
 import { ReactComponent as Logo } from "assets/Logo.svg";
 
 
-function Header() {
+function Header({handleProductScroll}) {
     return (
         <HeaderSC>
             <Wrapper relative height="100%">
@@ -15,7 +15,7 @@ function Header() {
                     <HeaderText red weight="700">НОВЫЙ </HeaderText>
                     <HeaderText>идеальный </HeaderText>
                     <HeaderText weight="900" size="71px" space="30px"> Fuel EX 9.8 GX </HeaderText>
-                    <Button>Оформить заказ</Button>
+                    <Button onClick = {handleProductScroll}>Оформить заказ</Button>
                 </Absolute>
             </Wrapper>
         </HeaderSC>

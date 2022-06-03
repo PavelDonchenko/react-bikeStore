@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Wrapper, Flex, Title, Text, Hr, Button } from 'components/ui';
 import Carousel from 'components/Carousel';
 import ColorPicker from 'components/ColorPicker';
@@ -43,8 +43,7 @@ const images = [
     Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8
 ]
 
-function Product() {
-    return (
+const Product = forwardRef(({ handleOrederScroll }, ref) => (
         <section>
             <Wrapper>
                 <Title withBorder margin='70px 0 30px' >ВСТРЕЧАЙ НОВОГО КОРОЛЯ ВЕРШИН</Title>
@@ -53,7 +52,7 @@ function Product() {
                     Так же иы расширили наш размерный ряд, чтобы обеспечить удобство для всех райдеров. Вы можете выбрать максимальный размер колес, который подойдет для вашей рамы: рамам XS доступны колеса 27,5 дюймов, на рамы S можно выбрать между 27,5 дюймов или 29 дюймов, а размерам от M до XL доступны колеса 29 дюймов.
                     Fuel EX 9.8 - отличное вложение для одного велосипеда, который может все.
                 </Text>
-                <Flex colgap="30px">
+                <Flex colgap="30px" ref={ref}>
                     <Flex flex="1">
                         <Carousel>
                             {images.map((image) => (<img src={image} key={image} alt={image} />))}
@@ -76,19 +75,19 @@ function Product() {
                         <Hr />
                         <Flex width="100%" align="flex-start">
                             <Flex flex={1} justify="flex-start">
-                                <ColorPicker items = {colors}/>
+                                <ColorPicker items={colors} />
                             </Flex>
                             <Flex flex={1}>
-                            <SizePicker items = {sizes}/>
+                                <SizePicker items={sizes} />
                             </Flex>
                         </Flex>
-                        <CountPicker/>
-                        <Button>Оформить заказ</Button>
+                        <CountPicker />
+                        <Button onClick={handleOrederScroll}>Оформить заказ</Button>
                     </Flex>
                 </Flex>
             </Wrapper>
         </section>
     )
-}
+)
 
 export default Product;
